@@ -9,7 +9,6 @@ $(PDF) : $(MAIN).tex *.tex
 	pdflatex $(FLAGS) $<
 	pdflatex $(FLAGS) $<
 	mv $(MAIN).pdf $(PDF)
-	make clean
 
 bib: $(MAIN).tex *.tex
 	pdflatex $(FLAGS) $<
@@ -17,6 +16,7 @@ bib: $(MAIN).tex *.tex
 	pdflatex $(FLAGS) $<
 	pdflatex $(FLAGS) $<
 	mv $(MAIN).pdf $(PDF)
+	make clean
 
 clean:
 	rm  *.aux *.log *.out *.toc *.bbl *.blg $(MAIN).bcf $(MAIN).run.xml
