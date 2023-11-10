@@ -1,21 +1,24 @@
-% \documentclass[a4paper,14pt]{extreport}
-\documentclass[a4paper,14pt]{extarticle}
+\documentclass[a4paper,oneside,14pt]{extarticle}
 
-\usepackage{cmap} % Улучшенный поиск русских слов в полученном pdf-файле
-\usepackage[T2A]{fontenc} % Поддержка русских букв
-\usepackage[utf8]{inputenc} % Кодировка utf8
-\usepackage[english,russian]{babel} % Языки: русский, английский
-
-\include{preambule}
+\include{preamble}
 
 \begin{document}
 
-ИУ7-54Б, 16\_KOZ, Рунов Константин
+% \include{title}
+\include{nir_title}
+\setcounter{page}{2}
+\renewcommand{\contentsname}{СОДЕРЖАНИЕ}
+\setcounter{tocdepth}{2} % Don't list subsubsections in TOC
+% \tableofcontents
 
-\newpage
-
-\include{draft}
-
-\printbib{Список использованных источников}
+\include{report/00-introduction}
+\include{report/01-analytical}
+% \include{report/02-design}
+% \include{report/03-technological}
+% \include{report/04-research}
+% \include{report/05-conclusion}
+\include{report/06-bibliography}
+% \include{report/appendix-a}
+% \include{report/appendix-b}
 
 \end{document}
