@@ -1,0 +1,64 @@
+
+\documentclass{bmstu}
+
+\bibliography{biblio}
+\usepackage{comment}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\pdfmapline{=dummy}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+
+% Перевод команд псевдокода
+\algrenewcommand\algorithmicwhile{\textbf{До тех пока}}
+\algrenewcommand\algorithmicdo{\textbf{выполнять}}
+\algrenewcommand\algorithmicrepeat{\textbf{Повторять}}
+\algrenewcommand\algorithmicuntil{\textbf{Пока выполняется}}
+\algrenewcommand\algorithmicend{\textbf{Конец}}
+\algrenewcommand\algorithmicif{\textbf{Если}}
+\algrenewcommand\algorithmicelse{\textbf{иначе}}
+\algrenewcommand\algorithmicthen{\textbf{тогда}}
+\algrenewcommand\algorithmicfor{\textbf{Цикл}}
+\algrenewcommand\algorithmicforall{\textbf{Выполнить для всех}}
+\algrenewcommand\algorithmicfunction{\textbf{Функция}}
+\algrenewcommand\algorithmicprocedure{\textbf{Процедура}}
+\algrenewcommand\algorithmicloop{\textbf{Зациклить}}
+\algrenewcommand\algorithmicrequire{\textbf{Условия:}}
+\algrenewcommand\algorithmicensure{\textbf{Обеспечивающие условия:}}
+\algrenewcommand\algorithmicreturn{\textbf{Возвратить}}
+\algrenewtext{EndWhile}{\textbf{Конец цикла}}
+\algrenewtext{EndLoop}{\textbf{Конец зацикливания}}
+\algrenewtext{EndFor}{\textbf{Конец цикла}}
+\algrenewtext{EndFunction}{\textbf{Конец функции}}
+\algrenewtext{EndProcedure}{\textbf{Конец процедуры}}
+\algrenewtext{EndIf}{\textbf{Конец условия}}
+\algrenewtext{EndFor}{\textbf{Конец цикла}}
+\algrenewtext{BeginAlgorithm}{\textbf{Начало алгоритма}}
+\algrenewtext{EndAlgorithm}{\textbf{Конец алгоритма}}
+\algrenewtext{BeginBlock}{\textbf{Начало блока. }}
+\algrenewtext{EndBlock}{\textbf{Конец блока}}
+\algrenewtext{ElsIf}{\textbf{Иначе если }}
+
+\begin{document}
+
+%\makereporttitle{Информатика и вычислительная техника}{Программное обеспечение ЭВМ и информационные технологии}{НИРС}{}{}{}{Турчанский~Н.~А./ИУ7-54Б}{Кострицкий~А.~C.}
+
+%\maketableofcontents
+ИУ7-54Б, 16\_KOZ, Турчанский
+\include{01-definitions}
+% \include{02-abbreviations}
+
+\include{03-introduction}
+\include{04-analysis}
+% \include{05-design}
+% \include{06-implementation}
+% \include{07-research}
+% \include{08-conclusion}
+
+\makebibliography
+
+% \include{09-appendix}
+
+\end{document}
