@@ -1,0 +1,13 @@
+# Fdb version 4
+["pdflatex"] 1696742465 "/Users/toupist/Desktop/load-balancing-methods/kozlitin/main.tex" "main.pdf" "main" 1696742465 2
+  "/Users/toupist/Desktop/load-balancing-methods/kozlitin/main.tex" 1696728328 125 b43396d66a55adba56298d8fadb2a6ae ""
+  "/opt/local/etc/texmf/texmf.cnf" 1695501853 38796 5cfe7a0ddf0e6116d24f0b6dd30d6641 ""
+  "/opt/local/var/db/texmf/web2c/pdftex/pdflatex.fmt" 1695501964 6550265 01120a146ef5db19db9bc3d0c6b25fe9 ""
+  "bmstu.cls" 0 -1 0 ""
+  "main.aux" 1696742465 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1696728328 125 b43396d66a55adba56298d8fadb2a6ae ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)
